@@ -37,8 +37,8 @@ jobs:
           args:
           - -exec
           - |
-            dotnet restore
-            dotnet build
+            dotnet restore ./source-code/seroter-api-k8s.csproj
+            dotnet build ./source-code/seroter-api-k8s.csproj
             dotnet test ./source-code/seroter-api-k8s.csproj     
 
 # second job produces a container
