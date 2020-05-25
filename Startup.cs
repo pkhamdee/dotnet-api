@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace seroter_api_k8s
+namespace dotnet_api
 {
     public class Startup
     {

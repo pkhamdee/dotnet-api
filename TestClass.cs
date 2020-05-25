@@ -1,8 +1,8 @@
 ﻿using System;
 using Xunit;
-using seroter_api_k8s.Controllers;
+using dotnet_api.Controllers;
 
-namespace seroter_api_k8s
+namespace dotnet_api
 {
     public class TestClass
     {
